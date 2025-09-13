@@ -1,0 +1,21 @@
+
+AVERAGE MARKS OF 5 STUDENTS
+#include<stdio.h>
+int main()
+{
+	int s1,s2,s3,s4,s5,sum;
+	float average;
+	printf("enter the values of s1,s2,s3,s4,s5");
+	scanf("%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5);
+	sum=(s1+s2+s3+s4+s5);
+	printf("sum=%d\n",sum);
+	printf("%f",&average);
+	average=(s1+s2+s3+s4+s5)/5;
+	printf("average=%f",average);
+	return 0;
+}
+
+
+OUTPUT:
+enter the values of s1,s2,s3,s4,s5 96 95 97 94 98
+sum=4800.000000average=96.000000
