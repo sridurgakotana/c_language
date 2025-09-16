@@ -1,0 +1,15 @@
+//AREA OF SQUARE
+#include<stdio.h>
+int main()
+{
+	int s, area;
+	printf("enter s values");
+	scanf("%d",&s);
+	area=(s*s);
+	printf("area=%d",area);
+	return 0;
+}
+
+//OUTPUT:
+enter s values 6
+area=36
